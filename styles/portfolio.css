@@ -1,0 +1,13 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;*/
+
+body {
+    background-color: red;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
