@@ -1,13 +1,53 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace;*/
 
-body {
-    background-color: red;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
+:root   {
+    --branding-color: #DE048C;
+    --heading-font: "Poppins", sans-serif;
+    --secondary-font: "Roboto Mono", monospace;
 }
 
+
+.hero {
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+h1,
+h2,
 p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+  color: white;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: 96px;
+}
+
+h2,
+p {
+  font-family: var(--secondary-font);
+}
+
+.hero h2 {
+    font-size: 30px;
+    line-height: 2;
+}
+
+.surname {
+    color: var(--branding-color);
+}
+
+.btn-branding {
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: var(--branding-color);
+color: white;
+border-radius: 4px;
+font-size: 20px;
+font-family: var(--secondary-font);
+margin-top: 50px;
 }
