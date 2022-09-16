@@ -146,3 +146,36 @@ color: var(--branding-color) !important;
 .show-project-link:hover {
     color: var(--branding-color);
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+    }
+    .hero h2 {
+        font-size: 20px;
+        margin: 20px 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h5 {
+        margin: 0 20px;
+    }
+
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #get-in-touch {
+        display: flex !important;
+       justify-content: center !important;
+    }
+
+    #check-out-cv {
+         display: flex !important;
+       justify-content: center !important;
+    }
+}
