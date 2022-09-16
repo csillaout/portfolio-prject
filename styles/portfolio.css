@@ -83,11 +83,12 @@ h6 {
   font-size: 20px;
   font-family: var(--secondary-font);
   margin-top: 50px;
+  max-width: fit-content;
 }
 
 .btn-branding:hover {
-  color: var(--branding-color);
-  color: white;
+background-color: white !important;
+color: var(--branding-color) !important;
 }
 
 .content {
@@ -106,6 +107,7 @@ h6 {
 
 .product-dev {
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .fa-code {
@@ -122,4 +124,25 @@ h6 {
 
 #about {
     margin-bottom: 100px;
+}
+
+.h3 {
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.card {
+    background-color: var(--background-color);
+    text-align: left;
+    box-shadow: box-shadow: 12px 12px 2px 1px white;
+    margin-top: 50px;
+}
+
+.show-project-link {
+    text-decoration: none;
+    color: white;
+}
+
+.show-project-link:hover {
+    color: var(--branding-color);
 }
