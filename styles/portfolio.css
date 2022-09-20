@@ -134,7 +134,7 @@ color: var(--branding-color) !important;
 .card {
     background-color: var(--background-color);
     text-align: left;
-    box-shadow: box-shadow: 12px 12px 2px 1px white;
+    box-shadow: 12px 12px 2px 1px white;
     margin-top: 50px;
 }
 
@@ -183,4 +183,64 @@ color: var(--branding-color) !important;
          display: flex !important;
        justify-content: center !important;
     }
+
+    .about-header {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+
+/*about page*/
+.about-header {
+    background-color: var(--background-color);
+    padding: 160px 20px 100px 20px;
+}
+
+.csillatoth-image {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.about-header h1 {
+    font-size: 64px;
+    line-height: 80px;
+    margin-top: 70px;
+}
+
+.about-header h2  {
+    font-size: 25px;
+    font-family: var(--heading-font);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.about-header p {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.5;
+    opacity: 80%;
+}
+
+.about-header a {
+    margin-bottom: 40px;
+}
+
+.about-content {
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+ul {
+    color: white;
+    font-family: var(--secondary-font);
+    list-style: none;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.icons {
+    max-width: 100%;
+    max-height: 50px;
 }
