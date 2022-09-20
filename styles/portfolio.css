@@ -147,6 +147,11 @@ color: var(--branding-color) !important;
     color: var(--branding-color);
 }
 
+.about-subtitle {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 60px;
