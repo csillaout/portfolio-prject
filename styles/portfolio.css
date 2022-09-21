@@ -64,6 +64,7 @@ h6 {
   font-size: 20px;
 }
 
+
 .hero {
   text-align: center;
   padding: 160px 20px 100px 20px;
@@ -99,6 +100,7 @@ h6 {
 
 .content {
   text-align: center;
+  padding: 0 20px 100px 20px;
 }
 
 .ruler {
@@ -143,23 +145,37 @@ h6 {
   margin-top: 50px;
 }
 
-.show-project-link {
+.show-project-link, .email {
   text-decoration: none;
   color: white;
 }
 
-.show-project-link:hover {
+.email:hover, .show-project-link:hover {
   color: var(--branding-color);
-}
-
-.about-subtitle {
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .all-projects {
   margin-bottom: 100px;
 }
+
+.about-subtitle {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.email-address {
+    margin-bottom: 0;
+}
+
+.phone {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.project-sample {
+    margin-bottom: 50px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 60px;
@@ -182,16 +198,6 @@ h6 {
     margin: 0 20px;
   }
 
-  #get-in-touch {
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  #check-out-cv {
-    display: flex !important;
-    justify-content: center !important;
-  }
-
   .header-content {
     text-align: center;
     padding: 0;
@@ -204,8 +210,9 @@ h6 {
 
 /*about page*/
 .header-content {
-  padding: 160px 20px 100px 20px;
+    padding: 160px 100px 100px 100px;
 }
+
 
 .csillatoth-image {
   max-width: 100%;
@@ -251,4 +258,9 @@ ul {
 .icons {
   max-width: 100%;
   max-height: 50px;
+}
+
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 50px;
 }
