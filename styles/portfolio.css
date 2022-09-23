@@ -69,7 +69,19 @@ h6 {
 }
 .hero {
   text-align: center;
-  padding: 50px 20px 30px 20px;
+  padding: 100px 20px 75px 20px;  
+}
+
+.hero::before {
+ content: "";
+  background-image: url("../styles/images/backgrounds/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.25;
 }
 
 .hero h2 {
@@ -154,10 +166,6 @@ h6 {
   color: var(--branding-color);
 }
 
-.all-projects {
-  margin-bottom: 50px;
-}
-
 .about-subtitle {
   margin-left: 50px;
   margin-right: 50px;
@@ -191,7 +199,6 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 29px;
   font-size: 20px;
   margin-left: 15px;
 }
@@ -209,8 +216,13 @@ nav li.active a {
 hr {
   color: white;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
+#navigation {
+    max-height: 75px;
+    padding-top: 25px;
+}
 
 @media (max-width: 600px) {
   h1 {
@@ -284,7 +296,7 @@ hr {
 .header-content p {
   font-size: 15px;
   margin-top: 20px;
-  line-height: 1.5;
+  line-height: 15px;
   opacity: 80%;
 }
 
@@ -312,4 +324,26 @@ ul {
 .get-in-touch {
   text-align: center;
   margin-bottom: 50px;
+}
+
+.phone-number {
+    margin-bottom: 50px;
+}
+
+/*footer*/
+
+.footer {
+    color: white;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 20px 30px 20px;
+}
+
+.rights {
+    font-size: 10px;
+}
+
+i {
+    font-size: 20px;
 }
