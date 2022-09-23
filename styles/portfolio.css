@@ -64,10 +64,12 @@ h6 {
   font-size: 20px;
 }
 
-
+#getstarted {
+    margin-top: 100px;
+}
 .hero {
   text-align: center;
-  padding: 160px 20px 100px 20px;
+  padding: 50px 20px 30px 20px;
 }
 
 .hero h2 {
@@ -103,11 +105,6 @@ h6 {
   padding: 0 20px 100px 20px;
 }
 
-.ruler {
-  color: white;
-  margin-bottom: 100px;
-}
-
 #about-main {
   text-align: left;
 }
@@ -130,7 +127,7 @@ h6 {
 }
 
 #about {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .h3 {
@@ -145,41 +142,81 @@ h6 {
   margin-top: 50px;
 }
 
-.show-project-link, .email {
+
+.show-project-link,
+.email {
   text-decoration: none;
   color: white;
 }
 
-.email:hover, .show-project-link:hover {
+.email:hover,
+.show-project-link:hover {
   color: var(--branding-color);
 }
 
 .all-projects {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .about-subtitle {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .email-address {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .phone {
-    margin-top: 10px;
-    margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .project-sample {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
+
+.logo {
+  max-height: 30px;
+}
+
+nav {
+  padding: 20px 0 0 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 29px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+hr {
+  color: white;
+  margin-bottom: 50px;
+}
+
 
 @media (max-width: 600px) {
   h1 {
     font-size: 60px;
   }
+
   .hero h2 {
     font-size: 20px;
     margin: 20px 50px;
@@ -206,13 +243,25 @@ h6 {
   .csillatoth-image {
     margin-top: 50px;
   }
+
+  .logo {
+    max-height: 21px;
+    margin-top: 5px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  nav li {
+    margin-left: 2px;
+  }
 }
 
 /*about page*/
 .header-content {
-    padding: 160px 100px 100px 100px;
+  padding: 160px 100px 100px 100px;
 }
-
 
 .csillatoth-image {
   max-width: 100%;
@@ -261,6 +310,6 @@ ul {
 }
 
 .get-in-touch {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
