@@ -284,7 +284,6 @@ hr {
 /*about page*/
 .header-content {
 text-align: right;
- padding: 0;
  padding: 120px 20px 100px 20px;
 }
 
@@ -294,6 +293,17 @@ text-align: right;
   margin-top: 30px;
   display: flex;
   justify-content: start;
+}
+
+.header-content-portfolio {
+    padding: 120px 20px 100px 20px;
+}
+
+.portfolio-header {
+ font-size: 53px;
+  line-height: 80px;
+  margin-top: 50px;
+  line-height: 1;
 }
 
 .header-content h1 {
@@ -381,3 +391,6 @@ footer {
     text-align: left;
 }
 
+footer a {
+    color: white;
+}
