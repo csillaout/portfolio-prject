@@ -257,6 +257,9 @@ hr {
 
   .csillatoth-image {
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .logo {
@@ -282,10 +285,9 @@ hr {
     text-align: center;
   }
 }
-
 /*about page*/
 .header-content {
-  text-align: right;
+  justify-content: right;
   padding: 140px 20px 100px 20px;
 }
 
@@ -356,6 +358,9 @@ ul {
   max-height: 70px;
 }
 
+.csillahi {
+  font-size: 70px;
+}
 /*footer*/
 
 footer {
